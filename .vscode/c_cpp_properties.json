@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "blackm4set",
+            "includePath": [
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/include/Core/Inc",
+                "${workspaceFolder}/include/Drivers/STM32G4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/include/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/include/Drivers/CMSIS/Device/ST/STM32G4xx/Include",
+                "${workspaceFolder}/include/Drivers/CMSIS/Include"
+            ],
+            "defines": [
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32G474xx"
+            ],
+            "compilerPath": "C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build project",
+        "type": "cmake",
+        "command": "build",
+        "problemMatcher": "$gcc",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+      },
+      {
+          "label": "build&flash",
+          "type": "shell",
+          "command": "C:/ST/STM32CubeCLT_1.17.0/STM32CubeProgrammer/bin/STM32_Programmer_CLI",
+          "args": [
+            "-c",
+            "port=SWD",
+            "freq=24000",
+            "-w",
+            "build/debug/base.elf",
+            "-v"
+          ],
+          "group": {
+            "kind": "build",
+            "isDefault": true
+          },
+          "dependsOn": ["build project"]
+      }
+    ]
+  }
+  

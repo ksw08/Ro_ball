@@ -1,0 +1,3 @@
+C:/ex1/build/debug/CMakeFiles/base.dir
+C:/ex1/build/debug/CMakeFiles/edit_cache.dir
+C:/ex1/build/debug/CMakeFiles/rebuild_cache.dir
