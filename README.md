@@ -1,8 +1,8 @@
 # 🌕 Ro_Ball: Spherical Mobile Robot
 
 <div align="center">
-  <img src="image %26 video/roball1.png" width="48%" alt="Ro-Ball Real 1">
-  <img src="image %26 video/roball2.png" width="48%" alt="Ro-Ball Real 2">
+  <img src="media/roball1.png" width="48%" alt="Ro-Ball Real 1">
+  <img src="media/roball2.png" width="48%" alt="Ro-Ball Real 2">
   <p>
     <img src="https://img.shields.io/badge/Platform-STM32G474VET6-blue?logo=stmicroelectronics" alt="Platform">
     <img src="https://img.shields.io/badge/Language-C/C++-00599C?logo=c%2B%2B" alt="Language">
@@ -36,8 +36,8 @@
 
 ### Hardware Showcase
 <div align="center">
-  <img src="image %26 video/assembly1.png" width="48%" alt="System Assembly 1">
-  <img src="image %26 video/assembly2.png" width="48%" alt="System Assembly 2">
+  <img src="media/assembly1.png" width="48%" alt="System Assembly 1">
+  <img src="media/assembly2.png" width="48%" alt="System Assembly 2">
 </div>
 
 | Category            | Component           | Specification                             |
@@ -60,7 +60,7 @@ Maintains the robot's center of gravity in real-time through a feedback loop bet
 - **Interval**: 2ms (TIM4 Interrupt)
 
 <div align="center">
-  <img src="image %26 video/center_control.png" width="450" alt="Center Control Logic">
+  <img src="media/center_control.png" width="450" alt="Center Control Logic">
 </div>
 
 ### 2. Directional Control
@@ -73,12 +73,12 @@ Driving direction (N, E, S, W) is determined based on characters received from t
 
 ### Real-world Driving
 <div align="center">
-  <video src="image %26 video/driving.mp4" width="600" controls></video>
+  <video src="media/driving.mp4" width="600" controls></video>
 </div>
 
 ### Stability Test (Center Control)
 <div align="center">
-  <video src="image %26 video/center_control.mp4" width="600" controls></video>
+  <video src="media/center_control.mp4" width="600" controls></video>
 </div>
 
 ---
@@ -90,7 +90,7 @@ Driving direction (N, E, S, W) is determined based on characters received from t
 ├── src/        # Source files (.cpp, .c)
 │   ├── Core/    # Main logic, Motor/Device control
 │   └── Interface/ # Peripheral interfaces (HCMS, UART)
-├── image & video/ # Media assets
+├── media/ # Media assets
 └── README.md
 ```
 
