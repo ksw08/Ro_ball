@@ -59,10 +59,6 @@ Maintains the robot's center of gravity in real-time through a feedback loop bet
 - **Process**: IMU Feedback → PID Calculation → Dynamixel Angle Adjustment → Weight Shift
 - **Interval**: 2ms (TIM4 Interrupt)
 
-<div align="center">
-  <img src="media/center_control.png" width="450" alt="Center Control Logic">
-</div>
-
 ### 2. Directional Control
 Driving direction (N, E, S, W) is determined based on characters received from the smartphone controller app.
 - **Protocol**: Bluetooth (USART2, 9600 bps)
@@ -73,12 +69,12 @@ Driving direction (N, E, S, W) is determined based on characters received from t
 
 ### Real-world Driving
 <div align="center">
-  <video src="media/driving.mp4" width="600" controls></video>
+  <img src="media/driving.gif" width="600" alt="Driving Demonstration">
 </div>
 
 ### Stability Test (Center Control)
 <div align="center">
-  <video src="media/center_control.mp4" width="600" controls></video>
+  <img src="media/center_control.gif" width="600" alt="Stability Test">
 </div>
 
 ---
