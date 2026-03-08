@@ -96,5 +96,8 @@ Driving direction (N, E, S, W) is determined based on characters received from t
 - **Design Tools**: Solidworks 2020 (3D Modeling)
 - **Building system**: CMake / Ninja
 
+## 🏆 Awards
+- 🥈 **2024 지능형 로봇 아이디어 경진대회** - 우수상 (2nd Place)
+
 ---
 
